@@ -25,7 +25,7 @@ struct ProfileEditor: View {
             }
             
             Toggle(isOn: $profile.prefersNotifications) {
-                Text("Enable Notifcations").bold()
+                Text("Enable Notifications").bold()
             }
             
             VStack(alignment: .leading, spacing: 20) {
